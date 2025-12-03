@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar C (GCC)",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-Wextra",
+                "-g",
+                "pechinchar.c",
+                "-o",
+                "output\\pechinchar.exe"
+            ],
+            "options": {
+                "cwd": "C:\\Users\\lucio\\Downloads\\prog2\\revi1"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
